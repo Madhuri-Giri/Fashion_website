@@ -1,13 +1,20 @@
 .footer-con {
     background: #f8f8f8;
+    height: 300pc;
   }
   
    .footer-connect p {
+    margin-top: 30px;
     color: #000000;
 }  
 
  .footer-links p, h5 {
+  
     color: #000000;
+}
+
+.footer-links h5{
+  margin-top: 30px;
 }
 
 .footer-links{
@@ -22,6 +29,10 @@
 }
  .footer_about h5, p {
     color: #000000;
+}
+
+.footer_about h5{
+  margin-top: 30px;
 }
 
 .footer-icons {

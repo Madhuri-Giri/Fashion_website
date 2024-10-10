@@ -282,9 +282,13 @@ const Home = () => {
     </div>
   </Col>
 </Row>
-
-
         {/* ----------------------- */}
+<Row>
+<Col>
+        
+        </Col>
+</Row>
+       
       </div>
 
       <Footer />
