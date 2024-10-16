@@ -3,14 +3,23 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { AiFillYoutube } from "react-icons/ai";
 import { Row, Col, Container } from "react-bootstrap";
 import "../footer/FooterSection.css";
-import logo from '../../assets/logo-dark.png'
+import logo from "../../assets/logo-dark.png";
+import { useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Footer() {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
+  
+
   return (
     <footer className="footer-con">
       <Container>
         <Row className="footer-row">
-          <Col lg={3} md={4} sm={12} className="footer-connect">
+          <Col lg={3} md={4} sm={12} className="footer-connect" data-aos="fade-left">
             <p>info@demolink.org</p>
             <p> +91 8447906804</p>
             <Link to="/">
@@ -53,7 +62,7 @@ function Footer() {
             </div>
           </Col>
 
-          <Col lg={3} md={4} sm={12} className="footer_about">
+          <Col lg={3} md={4} sm={12} className="footer_about" data-aos="fade-right">
             <h5>About Us</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
