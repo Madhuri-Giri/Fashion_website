@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect} from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import model_img from "../../assets/model_img.jpg";
-import "../home/Home.css";
+import "../home/home.css";
 import shopping from "../../assets/shoping_img.jpg";
 import Navbar from "../navbar/Navbar";
 import model_img_2 from "../../assets/model_img_2.jpg";
